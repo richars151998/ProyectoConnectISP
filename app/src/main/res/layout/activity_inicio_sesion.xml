@@ -8,29 +8,40 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="413dp"
-        android:layout_height="295dp"
-        app:srcCompat="@drawable/iniciosesion"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="-13dp" />
+        android:layout_width="415dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iniciosesion" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Logo"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="96dp" />
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="64dp"
+        android:background="#EAE5E5"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_login" />
 
     <EditText
         android:id="@+id/edtNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="101dp"
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
         android:id="@+id/edtCodigo"
@@ -76,9 +87,14 @@
         android:id="@+id/buLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="237dp"
         android:onClick="consultaUsuario"
         android:text="INICIAR SESIÓN"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="602dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtCodigo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
