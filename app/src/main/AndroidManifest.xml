@@ -11,10 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConnectISP"
         tools:targetApi="31">
-
+        <activity
+            android:name=".ListaUsuarios"
+            android:exported="false" />
         <activity android:name=".MainActivity" />
         <activity android:name=".InicioSesion" />
-
         <activity
             android:name=".PantallaSplash"
             android:exported="true">
