@@ -6,7 +6,6 @@
     android:orientation="vertical"
     tools:context=".ListaUsuarios">
 
-
     <EditText
         android:id="@+id/TxtCodigo"
         android:layout_width="match_parent"
